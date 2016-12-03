@@ -10,5 +10,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_kingsong1_url
     assert_response :success
   end
+   test "should get kingsong2" do
+ get static_pages_kingsong2_url
+ assert_response :success
+ end 
 
 end
