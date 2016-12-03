@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/kingsong1'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -56,5 +60,9 @@ Rails.application.routes.draw do
 end
 
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/kingsong1'
+
 root 'application#hello'
 end
